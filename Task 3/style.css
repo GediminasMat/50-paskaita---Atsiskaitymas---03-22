@@ -59,3 +59,13 @@
   border-radius: 5px;
   background-color: #fff;
 }
+
+.slepti {
+  display: none
+}
+
+.card {
+  height: 320px;
+  justify-content: space-between;
+  ;
+}
