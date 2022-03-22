@@ -12,10 +12,10 @@ Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 let konvertuoti = document.querySelector(`#submit-btn`).addEventListener(`click`, e => {e.preventDefault();
   let reiksme = document.querySelector(`#search`).value;
   document.querySelector(`#output`).innerHTML =`
-  Svoris kilogramais: ${reiksme} kg <br>
-  Svoris svarais: ${reiksme * 2.2046} lb <br>
-  Svoris gramais: ${reiksme / 0.0010000} g <br>
-  Svoris uncijomis: ${reiksme * 35.274} oz
+  Weight in kilograms: ${reiksme} kg <br>
+  Weight in pounds: ${reiksme * 2.2046} lb <br>
+  Weight in grams: ${reiksme / 0.0010000} g <br>
+  Weight in ounces: ${reiksme * 35.274} oz
   `
   });
  
