@@ -27,3 +27,9 @@
   margin-top: 50px;
   color: #333;
 }
+
+.automobiliai{
+  justify-content: center;
+  background-image: linear-gradient(yellow, white, rgb(32, 209, 32));
+  outline: auto;
+}
