@@ -20,16 +20,16 @@ const users = [
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
 
-const getUserAverageAge = users.map(users => users.age)
+const amzius = users.map(users => users.age)
 
-console.log(getUserAverageAge);
-const avg = function (a, b) {
+console.log(amzius);
+let getUserAverageAge = function (a, b) {
   let sum = 0;
-  for (let i = 0; i < getUserAverageAge.length; i++) {
-    return getUserAverageAge.reduce((a, b) => a + b) / getUserAverageAge.length
+  for (let i = 0; i < amzius.length; i++) {
+    return amzius.reduce((a, b) => a + b) / amzius.length
   }
 }
-console.log(avg(getUserAverageAge));
+console.log(getUserAverageAge(amzius));
 
-const getUsersNames = users.map(users => users.name)
+let getUsersNames = users.map(users => users.name)
 console.log(getUsersNames);
