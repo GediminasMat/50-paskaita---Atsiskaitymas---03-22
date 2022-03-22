@@ -19,3 +19,27 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30, hasDog: false },
   { id: '9', name: 'Daniel Cane', age: 51, hasDog: true },
 ];
+
+function filterDogOwners(users) {
+  const dogLover = [];
+  users.filter((user) => {
+    if (user.hasDog === true) {
+      dogLover.push(user);
+    }
+  });
+  console.log(dogLover);
+}
+
+filterDogOwners(users);
+
+function filterAdults(users) {
+  const joinMilitary = [];
+  users.filter((user) => {
+    if (user.age >= 18) {
+      joinMilitary.push(user);
+    }
+  });
+  console.log(joinMilitary);
+}
+
+filterAdults(users);
